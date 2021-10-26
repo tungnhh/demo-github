@@ -1,0 +1,41 @@
+*{
+	margin:o;
+	padding:0;
+}
+.container{
+	width:1140px;
+	margin:auto;
+}
+.clearfix{
+	overflow:auto;
+}
+.content{
+	height:100px;
+}
+header .content{
+	background:#abc;
+}
+.section-left{
+	width:50%;
+}
+.section-right{
+	width:50%;
+}
+.section-right .content{
+	height:50px;
+}
+.section-right .row:first-child .content{
+	background:#afa;
+}
+.section-left, .section-right{
+	float:left;
+}
+.section-left .content{
+	background:#f0f;
+}
+.section-right .content{
+	background:#aff;
+}
+footer .content{
+	background:#aaf;
+}
